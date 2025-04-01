@@ -16,4 +16,5 @@ result <- bq_project_query(project_id, query)
 df <- bq_table_download(result)
 
 # Print the results
+print("show dataframe...")
 print(df)
